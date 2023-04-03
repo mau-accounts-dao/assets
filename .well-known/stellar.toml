@@ -1,0 +1,33 @@
+# Assets with MAU Accounts Stellar Anchor <https://staking.mauaccounts.net>
+# https://github.com/stellar/stellar-protocol/tree/master/ecosystem
+
+ACCOUNTS=[
+"GBDRK52Z3TWI4HO2WPWRFSYJT7YKNBDHCSIQCCU5INFSUDDFTC5Y5EHF",
+"GBQXXSJ7QNNBHQCUMXJ45PVUNPYJLYGZ42YS7X6GN2Y4HWAIWTAYLLHC"
+]
+
+[DOCUMENTATION]
+ORG_NAME="Assets with MAU Accounts DAO"
+ORG_DBA="Assets with MAU Accounts DAO"
+ORG_URL="https://assets.mauaccounts.net"
+ORG_LOGO="https://assets.mauaccounts.net/images/logo.png"
+ORG_DESCRIPTION="These tokens not directly issued but operated by MAU Accounts DAO - accounting and non-financial mutual obligations solving solutions distibuted provider"
+ORG_GITHUB="mau-accounts-dao/assets"
+ORG_OFFICIAL_EMAIL="assets@mauaccounts.com"
+ORG_SUPPORT_EMAIL="assets@mauaccounts.com"
+
+[[CURRENCIES]]
+code="CNYMAU"
+issuer="GBDRK52Z3TWI4HO2WPWRFSYJT7YKNBDHCSIQCCU5INFSUDDFTC5Y5EHF"
+status="live"
+display_decimals=2
+anchor_asset_type="fiat"
+anchor_asset="CNY"
+is_asset_anchored=true
+is_unlimited=true
+name="CNYMAU"
+desc="CNYMAU stablecoin, which issuer undertakes to exchange to bearers at the price of 1 CNY."
+conditions="CNYMAU guaranteed by 100% exchange in CNY."
+redemption_instructions="The bearer of CNYMAU has the right to replace his tokens with value of CNY."
+desc="STKMAU1 is a staking note representing the issuer's obligation to pay daily interest income in the form of USDMAU tokens based on the established annual interest rate. The bearer has the right to apply to the issuer for a reverse exchange of the note in the form of this token for USDMAU tokens in a ratio of 1:1 by requesting a redemption 30 days in advance."
+image="https://staking.mauaccounts.net/images/cnymau-logo.png"
