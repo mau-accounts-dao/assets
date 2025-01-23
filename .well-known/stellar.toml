@@ -3,7 +3,9 @@
 
 ACCOUNTS=[
 "GBDRK52Z3TWI4HO2WPWRFSYJT7YKNBDHCSIQCCU5INFSUDDFTC5Y5EHF",
-"GBQXXSJ7QNNBHQCUMXJ45PVUNPYJLYGZ42YS7X6GN2Y4HWAIWTAYLLHC"
+"GBQXXSJ7QNNBHQCUMXJ45PVUNPYJLYGZ42YS7X6GN2Y4HWAIWTAYLLHC",
+"GB3CZSRERIVI4OJG2QWNGE5BUASWNUPA4SP3VW46JYW4YTSTMCPWUHZH",
+"GCUWWSTW6RGLDKPFKHGM4PMWTAF3LOTXXNMM72PSG7CLEPLBR4DTHO3M"
 ]
 
 [DOCUMENTATION]
@@ -30,3 +32,14 @@ desc="CNYMAU stablecoin, which issuer undertakes to exchange to bearers at the p
 conditions="CNYMAU guaranteed by 100% exchange in CNY."
 redemption_instructions="The bearer of CNYMAU has the right to replace his tokens with value of CNY."
 image="https://assets.mauaccounts.net/images/cnymau-logo.png"
+
+[[CURRENCIES]]
+code="MAUMEDIA"
+issuer="GB3CZSRERIVI4OJG2QWNGE5BUASWNUPA4SP3VW46JYW4YTSTMCPWUHZH"
+status="live"
+display_decimals=7
+anchor_asset_type="other"
+is_unlimited=true
+name="MAUMEDIA"
+desc="MAUMEDIA is a crypto-shares token for MAU Media."
+image="https://assets.mauaccounts.net/images/maumedia-logo.png"
